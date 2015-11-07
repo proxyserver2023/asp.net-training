@@ -36,3 +36,23 @@ All Important Links of `asp.net` <b>projects</b> and <b>references</b> are being
   - Using Trace Statements
   - Devugging With BreakPoints
   - Commenting Code
+
+### Creating ReUsable Code
+  - Creating Web Controls
+  - Registering a user control manually on a web page
+  - Registering a user control globally in the web.config file
+  - Adding public properties to a web control
+
+### Using Cascading StyleSheets In Web Forms
+  - Understanding CSS
+  - Attaching External CSS files
+  - Defining a CSS Selector
+  - Using CSS Selectors in Server Controls
+
+### Presenting Dynamic Data
+  - Presenting Data with the GridView Control
+  - Controlling GridView Paging and Appearance
+  - Editing data with the GridView Control
+  - Presenting Data with the DataList
+  - Formatting data with binding expressions
+  
