@@ -1,0 +1,55 @@
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\first ASP.NET stie with vb.dll.config
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\first ASP.NET stie with vb.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\first ASP.NET stie with vb.pdb
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\WebForms_Basic.xml
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Antlr3.Runtime.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\AspNet.ScriptManager.bootstrap.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\AspNet.ScriptManager.jQuery.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\EntityFramework.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\EntityFramework.SqlServer.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.AspNet.Identity.Core.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.Owin.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.Owin.Security.Cookies.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.Owin.Security.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.Owin.Security.Facebook.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.Owin.Security.Google.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.Owin.Security.OAuth.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.Owin.Security.Twitter.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.ScriptManager.WebForms.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.Web.Infrastructure.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Newtonsoft.Json.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Owin.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\System.Web.Optimization.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\System.Web.Providers.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\WebGrease.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\System.Web.Optimization.xml
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Antlr3.Runtime.pdb
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Newtonsoft.Json.xml
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\EntityFramework.xml
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\EntityFramework.SqlServer.xml
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.AspNet.Identity.Core.xml
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.Owin.xml
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.Owin.Security.xml
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.Owin.Security.Facebook.xml
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.Owin.Security.Cookies.xml
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.Owin.Security.Google.xml
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.Owin.Security.Twitter.xml
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\bin\Microsoft.Owin.Security.OAuth.xml
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\obj\Debug\first ASP.NET stie with vb.vbprojResolveAssemblyReference.cache
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\obj\Debug\first_ASP.NET_stie_with_vb.Resources.resources
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\obj\Debug\first ASP.NET stie with vb.vbproj.GenerateResource.Cache
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\obj\Debug\first ASP.NET stie with vb.dll
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\obj\Debug\WebForms_Basic.xml
+D:\_git projects\ASP.NET Essential Training\first ASP.NET stie with vb\first ASP.NET stie with vb\obj\Debug\first ASP.NET stie with vb.pdb

@@ -1,0 +1,11 @@
+Using Data Binding Expressions
+
+<asp:Label ID = "fnameLabel" runat = "server" Text = "<%# fnameLabel.Text %>">
+
+</asp:Label>
+
+
+PageLoad()
+{
+	Page.DataBind();
+}

@@ -1,0 +1,15 @@
+2. Separtation Of Concern
+
+<script runat = "server">
+	protected void Button1_Click(Object o, EventArgs e)
+	{
+		myLabel.Text = "Value Set At Server";
+	}
+</script>
+
+
+CodeFile Attribute at the Server 
+links two files
+
+DESIGN 
+LOGIC
