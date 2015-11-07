@@ -27,5 +27,13 @@ All Important Links of `asp.net` <b>projects</b> and <b>references</b> are being
   - Handling Post Back Data in a Web Form Page
   - Using Data Binding Expressions
   
-
+### Programming in ASP.NET
+	- Creating a testing Environment
+	- Declaring and using a Simple Variable
+	- Declaring and using Complex Objects
+	- Using Loops
+	- Using Functions
+	- Using Trace Statements
+	- Devugging With BreakPoints
+	- Commenting Code
   
