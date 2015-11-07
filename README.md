@@ -63,3 +63,9 @@ All Important Links of `asp.net` <b>projects</b> and <b>references</b> are being
   - Creating an Update Page
   - Linking to update pages from the list page
   - Deleting database Records
+
+### Validating User Input
+  - Customizing forms with item editing template
+  - Adding Validator controls to a form 
+  - Controlling the Validation error Message Display
+  - Using the Validation Summary Control
