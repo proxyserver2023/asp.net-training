@@ -69,3 +69,28 @@ All Important Links of `asp.net` <b>projects</b> and <b>references</b> are being
   - Adding Validator controls to a form 
   - Controlling the Validation error Message Display
   - Using the Validation Summary Control
+
+### Creating Reports
+  - Creating A Query With joined tables
+  - Replacing control style properties with CSS
+  - Creating a CSS File for Printing
+  - Suppressing Elements in printed web pages
+  - Selecting Data for a report
+
+### Managing Session State
+  - Understanding ViewState and Managing PostBacks
+  - Using Session Variables
+
+### Securing a Site with Forms Authentication
+  - Turning on Forms Authentication
+  - Creating a page to log in users
+  - Creating a page to set up new users
+  - Understanding the Security Databases
+  - Configuring security in the web.config file 
+  - Creating a page to log out users
+
+### Deploying a Web Site
+  - Installing IIS on Windows
+  - Installing ASP.NET on Windows
+  - Deploying a site on Windows 
+  - Scripting a Database for Deployment
