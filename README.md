@@ -56,3 +56,10 @@ All Important Links of `asp.net` <b>projects</b> and <b>references</b> are being
   - Presenting Data with the DataList
   - Formatting data with binding expressions
   
+### Creating A Data Entry System
+  - Using the DetailsView Control
+  - Inserting Data with the DetailsView Control
+  - Redirecting Pafe Requests
+  - Creating an Update Page
+  - Linking to update pages from the list page
+  - Deleting database Records
