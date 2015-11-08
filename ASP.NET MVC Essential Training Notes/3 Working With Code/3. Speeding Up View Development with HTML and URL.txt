@@ -1,0 +1,43 @@
+3. Speeding Up View Development with HTML and URL Helpers
+
+@Url.Action("<Action Name>", "Controller name")
+@Html.ActionLink
+(
+	"<Link Text>", 
+	"<Action Name>",
+	"<Controller Name>"
+);
+
+--Controller
+
+public ActionResult Index()
+{
+	var auctions = new[]
+	{
+		new MvcAuction.Models.Auction()
+		{
+			Title = "Example1",
+			---
+		},
+		new MvcAuction.Models.Auction(){},
+		new MvcAuction.Models.Auction(){}
+	};
+
+	return View(auctions);
+}
+
+-- In View
+
+@model IEnumerable<MvcAuction.Models.Auction>
+@
+{
+	ViewBag.Title = "Index";
+}
+
+table Structure
+
+Header
+@Html.DisplayNameFor(model=>model.Title)
+
+Tuples
+@Html.DisplayFor(modelItem => item.Title);

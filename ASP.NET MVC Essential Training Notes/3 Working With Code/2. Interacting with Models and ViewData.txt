@@ -1,0 +1,76 @@
+2. Interacting with Models and ViewData
+
+Controllers are only component that should create an instance of Model and instruct view to create the UI according to this 	
+
+// using ViewData
+public ActionResult Auction()
+{
+	var auction = new MvcAuction.Models.Auction()
+	{
+		Title = "Example",
+		...
+	};
+
+	ViewData["Auction"] = auction;
+	return View();
+}
+
+--- View
+@
+{
+	var auction = (MvcAuction.Models.Auction)ViewData["Auction"];
+}
+
+// using ViewBag
+
+-- View
+@{
+	var auction = ViewBag.Auction;
+}
+
+
+// using Model
+
+public ActionResult Auction()
+{
+	var auction = new MvcAuction.Models.Auction()
+	{
+		Title = "Example",
+		----
+	};
+	return View(auction);
+
+}
+
+@model MvcAuction.Models.Auction
+@{
+	var auction = Model;	
+}
+
+
+
+Passing Data During Requests
+
+public ActionResult TempDataDemo()
+{
+	TempData["SuccessMessage"] = "The Action Succeeded!";
+	return RedirectToAction("Index");
+}
+
+-- in Index.cshtml
+
+@{
+ViewBag.Title = "Index";
+}
+
+<h2>
+	Index
+</h2>
+
+<div>This Really is our View!</div>
+@if(TempData["SuccessMessage"]!=null)
+{
+	<div class="success-message">
+		@TempData["SuccessMessage"]
+	</div>
+}

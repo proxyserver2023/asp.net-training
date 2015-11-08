@@ -1,0 +1,34 @@
+Razor Syntax
+
+three basic rules 
+	- just write code and markupe don't think about it
+	- @ indicates code
+	- standard language keyword
+		e.g : if else foreach
+
+Razor Keywords
+	Code 
+		@
+		@()
+		@{}
+	Content
+		@:
+		<text></text>
+	Comments
+	- @* *@
+
+
+Example
+
+@{
+	var action = new MvcAuction.Models.Auctions()
+				{
+					Title 		= "Example Auction",
+					Description = "This is an Example Auction",
+					StartTime   = DateTime.Now,
+					EndTime     = DateTime.Now.AddDays(7),
+					StartPrice  = 1.00m,
+					CurrentPrice= null 
+				};
+	
+}
