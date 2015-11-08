@@ -1,0 +1,30 @@
+ADDING MODELS
+
+ADDING A CLASS automatically adds a  model to the Folder
+
+
+it adds the class automatically in the default MODELS folder 
+
+MAIN FOLDER - MVCAuctions
+SUB  FOLDER - MVCAuctions.Model
+
+it simply is a class with the properties exactly like columns in  database
+
+Example ->
+
+using System.Linq;
+using System.Web;
+
+namespace MVCAuction.Models
+{
+	public class Auction
+	{
+		public long Id{get;set;}
+		public string Title{get;set;}
+		public DateTime StartTime{get;set;}
+		public DateTime EndTime{get;set;}
+
+		public decimal StartPrice{get;set;}
+		public decimal? CurrentPrice{get;set;}
+	}
+}

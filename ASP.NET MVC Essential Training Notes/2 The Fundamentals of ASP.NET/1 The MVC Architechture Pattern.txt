@@ -1,0 +1,34 @@
+The MVC Architechture Pattern
+
+the MVC model
+
+model - view - controller
+
+model -> application busineess logic
+	for our site it contains auctions bids user and behaviours
+
+view  -> responsible for interacting with user
+	- interacts with user 
+	- visualize the model and communicate to the user
+	- standard HTML/JavaScript/CSS
+	- can render JSON, xml and custom return types
+
+Controller
+	acts as a traffic cop
+
+	brains of asp.net
+
+	controls interaction with the layers
+
+	it's real job is to delegate as much as job to the view layers and model layers
+
+	IT generally co ordinate the models and views
+
+Separation of concersn
+
+components are only responsible for one thing
+loosely coupled 
+modular components
+
+Loosely Coupled Architecture
+

@@ -1,0 +1,25 @@
+VIEWS
+
+Codeblocks:
+@{
+	// all codes goes here.
+	// it only process 
+	// nothing outputs
+}
+
+after the codeblocks
+all that written is plain HTML with Some Razor Code
+
+Example :
+
+
+@{
+	ViewBag.Title = "Index";
+}
+
+<h2>
+	Index Page
+</h2>
+<p>
+	The View Really Works!
+</p>

@@ -1,0 +1,28 @@
+WEB FORMS with ASP.NET MVC SImilarities
+
+both have been built at the top of
+System.Web namespace
+
+
+they both leverage . Net Frameworks & its languages
+
+use IIS and ASP.NET  Request Pipeline 
+HTTP handlers nad HTTP Modules
+
+they both use configuration framework 
+
+usually Render HTML markup code
+
+
+
+
+WEB FORMS vs MVC 
+
+web FORMS # MVC
+		- Views tighty coupled to logic # views and Logic separate
+		- pages [file based URLS] # Controllers route based URL
+		- state management [view State] # no Automatic State Management TempData Available
+		- web forms Syntax Only # Support Multiple Syntaxes RaZOR as Default
+		- master Pages # Layouts
+		- user Controls  # partial Views
+		- Server Controls # HTML Helper

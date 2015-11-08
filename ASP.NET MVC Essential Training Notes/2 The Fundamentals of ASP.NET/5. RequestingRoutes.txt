@@ -1,0 +1,45 @@
+Routing Requests ot Controller Actions
+
+Request Routing 
+
+inspect an incoming URL 
+determines which controller action it corresponds to and pass execution of to that action
+
+ROOT
+|___global.asax.cs
+|________Application_start()
+			{
+				// Registering all the Routes
+				RouteConfig.RegisterRoutes(RouteTable.Routes);		
+			}
+
+EXAMPLE:
+
+using System;
+using System.Web;
+using System.Web.Mvc;
+using System.Web.Routing;
+
+namespace MvcAuction
+{
+	public class RouteConfig
+	{
+		public static void RegisterRoutes(RouteCollection routes)
+		{
+			routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+			rotues.MapRoute
+				   (
+				   	name 	 : "Default",
+				   	url  	 : "{controller}/{action}/{id}",
+				   	defaults : new 
+				   				  {
+				   				  	controller = "Home",
+				   				  	action     = "Index",
+				   				  	id         = UrlParameter.Optional
+				   				  } 
+				   );
+		}
+	}
+}
+
+

@@ -1,0 +1,46 @@
+ADDING CONTROLLER
+
+<controllerName>Controller
+
+Template
+	Empty MVC Controller Template
+	MVC Controller with Read/Write actions and views using Entity Framework
+	MVC Controller with empty read/write actions
+	EMPTY API CONTROLLER
+	API CONTROLLER WITH READ/WRITE ACTIONS using ENTITY FRAMEWORK
+	API CONTROLLER WITH READ/WRITE ACTIONS
+
+  
+Name: Auction Controller
+NameSpace : System.Web.Mvc.Controllers
+
+
+Controller Actions Must Return Some Result to Act as a reply to the User 
+
+return View() : 
+ASP.NET MVC ViewHelper Method - 
+tells the framework should return the view as the same name.
+
+
+example
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace MvcAuction.Controllers
+{
+	public class AuctionController:Controller
+	{
+		//
+		// GET : /Auctions/
+		public AuctionResult Index()
+		{
+			return View();
+		}
+	}
+} 
+
+
