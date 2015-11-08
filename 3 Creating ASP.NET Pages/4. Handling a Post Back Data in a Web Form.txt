@@ -1,6 +1,0 @@
-4. Handling a Post Back Data in a Web Form
-
-public partial class UsingPostBack : System.Web.UIControls
-{
-	
-}
