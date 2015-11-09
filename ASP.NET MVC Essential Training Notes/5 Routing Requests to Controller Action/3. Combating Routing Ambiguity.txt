@@ -1,0 +1,51 @@
+3. Combating Routing Ambiguity
+
+the Default Route
+
+routes.MapRoute
+(
+	"Default",
+	"{controller}/{action}/{id}"
+	new {controller = "Home", action = "index", id = UrlParameter.Optional}
+);
+
+example: numeric ID Route Constraint
+
+routes.MapRoute
+(
+	name	 	: "Default",
+	url 	 	: "{controller}/{action}/{id}",
+	defaults 	: new {controller = "Home", action = "Index", id=UrlParameter.Optional},
+	constratints: new {id=@"\d*"}
+	constratints: new {id=@"\d+"}
+);
+
+
+example: blog posts by year and month
+
+routes.MapRoute
+(
+	"Blog Posts",
+	"posts/{year}/{month}/{id}",
+	new {controller = "Blog", action = "Post", id = UrlParameter.Optional},
+	new {year = @"\d{4}", month = @"\d{2}"}
+);
+
+same URL Pattern - different Constraints
+
+routes.MapRoute
+(
+	"North American Countries",
+	"countries/{country}"
+	new {controller = "Countries", action = "NorthAmerica", id = UrlParameter.Optional},
+	new {country = "(us|ca)"}
+);
+
+
+routes.MapRoute
+(
+	"European Countries",
+	"countries/{country}"
+	new {controller = "Countries", action = "Europe"},
+	new {country  = "(uk|de|es|it|fr|be|nl)"}
+);

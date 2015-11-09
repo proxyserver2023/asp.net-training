@@ -42,3 +42,30 @@ combining Literals and Placeholder
 	{controller}/{action}-{id}
 	Literal/{id}/Product-{action}/{optional1}/param-{optional2}
 	{controller}-{action}/bycatergory/{category}
+
+route ordering
+
+routes.MapRoute
+(
+	"generic",
+	"{simple}",
+	new{controller="Siple"}
+);
+
+routes.MapRoute
+(
+	"admin",
+	"Admin",
+	new {controller = "Admin", action = "index"}
+);
+
+catcg all parameters
+
+routes  : search/{*query}
+defaults: new {controller="Auction", action ="Search"}
+
+URL:http://www.example.com/search/Radio Flyer Wagon/red
+
+{controller} = Auction
+{action}	 = Search
+{query}		 = Radio Flyer Wagon/red
