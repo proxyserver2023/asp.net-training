@@ -1,0 +1,6 @@
+3. Applying advanced Features
+
+if(IsSectionDefined("Featured"))
+{
+	@RenderSection()	
+}

@@ -1,0 +1,8 @@
+Optimizing URLs for Search Engine Optimization
+	- Short URLs are better
+	- Separate multiple words using dashes(-)
+	  instead of underscores(_)
+	  Radio_Flyer_Wagon indexes as one word
+	  Radio-Flyer-Wagon indexes as three words
+	- Stick to lowercase
+	  Page1.html and page1.html are treated as different url

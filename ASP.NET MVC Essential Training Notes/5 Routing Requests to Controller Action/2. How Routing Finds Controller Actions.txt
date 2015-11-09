@@ -1,0 +1,44 @@
+2. How Routing Finds Controller Actions.txt
+
+the default route
+
+routes.MapRoute
+(
+	"Default",
+	"{controller}/{action}/{id}",
+	new
+		{
+			controller="Home",
+			action="Index",
+			id=UrlParameter.Optional
+		}
+);
+
+routing pattern consist of 
+	-placeholder
+	-literal values
+
+
+Literal value route segments
+	- e.g : "Login"
+	- maps to:
+		- http://www.example.com/login
+		- and also http://www.example.com/Login
+
+placeholder route segments
+	route: {controller}/{action}/{id}
+	URL  : http://www.example.com/Auctions/Auction/123
+
+	Parameter    Value
+	{controller} Auctions
+	{action}	 Auction
+	{id}		 123
+
+injecting literals into routes
+route: {param1}-{param2}-{param3}
+URL  : http://www.example.com/First-2nd-Third
+
+combining Literals and Placeholder
+	{controller}/{action}-{id}
+	Literal/{id}/Product-{action}/{optional1}/param-{optional2}
+	{controller}-{action}/bycatergory/{category}

@@ -1,0 +1,8 @@
+Routing Basics
+
+Traditional Web Communication Architechture maps a URL[uniform resource locator] to a file with in the file System, For Example, the following:
+
+http://mydomain.com/mybooks/favourites.html
+
+would tend to map a file named favourites.html in the directory ~/mybooks/favourites located in the root directory for the site mydomain.com
+

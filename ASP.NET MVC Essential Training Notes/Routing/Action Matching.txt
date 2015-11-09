@@ -1,0 +1,9 @@
+Action Matching.txt
+
+Once the Framework has selected the proper controller,
+it attempts to locate an actionn on the controller with a  name 
+matching the {action} parameter value,
+
+The Search for a matching action name is case-insensitive
+If more than one action matches by name overloaded methods on the same controller the framework will select the method for which the most URL parameters match arguments by name
+

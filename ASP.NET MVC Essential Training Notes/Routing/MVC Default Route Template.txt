@@ -1,0 +1,19 @@
+MVC Default Route Template
+--------------------------
+
+Routing Walk Through
+
+A Simple Books Controller
+
+public class BooksController : Controller
+{
+	public ActionResult Index()
+	{
+		return View();
+	}
+
+	public ActionResult Details(int id)
+	{
+		return View();
+	}
+}

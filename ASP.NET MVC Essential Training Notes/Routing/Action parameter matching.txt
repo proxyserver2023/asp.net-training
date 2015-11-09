@@ -1,0 +1,56 @@
+Action parameter matching.txt
+
+Additional URL Parameters other than {controller} and {action}
+are available to be passed as arguments to the selected Action Method
+
+The Framework will evaluate the input arguments of the available actions, and match them by name [case-insensitive] to the URL parameters other than {action} and {controller}
+
+With Certain Restrictions the framework will select that action with the greatest number of matching parameters
+
+Some things to consider
+
+	The MVC Framework will first match method arguments by name to URL parameters then it will attempt to match any query string parameters included in the URL by name 
+
+	If the Request is POST, then the framework will attempt to match the contents of the POST body
+
+	Method Arguments are evaluated for a match by name only. The framework does not consider the type required by the method argument
+
+	For Example a URL parametere named {id} with a value of "John" will be considered a match for a method which accepts an int argument named id.
+
+	Action methods can be decorated with attributes which restrict the type of HTTP request they will respond to.
+
+	Such Attribute indicate the applicable HTTP Verb to whihc the action will respond
+
+As an example of limiting the HTTP Actions which a method may respond consider the following
+
+
+public ActionResult Edit(int id)
+{
+	return View();
+}
+
+[HttpPost]
+public ActionResult Edit(int id, FormCollection)
+{
+	try
+	{
+	// Add Update Logic Here
+		return RedirectToAction("Index");
+	}
+	catch
+	{
+		return View();
+	}
+}
+
+In the above we find two methdos named Edit.
+
+The First accepts an int named id as an argument,
+
+and the second accepts an int named id and a form collection [a complex type]
+
+The purpose of this overloaded method is so that a browser can:
+
+
+
+

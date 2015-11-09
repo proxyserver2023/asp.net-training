@@ -30,5 +30,41 @@ Example
 					StartPrice  = 1.00m,
 					CurrentPrice= null 
 				};
-	
 }
+
+
+<div class = "auction">
+	<h3>@auction.Title</h3>
+	<div class="details">
+		<p>Start Time: @auction.StartTime.ToString("g")</p>
+		<p>End Time: @auction.EndTime.ToString("g")</p>
+		<p>Starting Price: @auction.StartPrice.ToString("C")</p>
+		@*	
+			Since the Current Price is Nullable we have to check to 
+			see if it has a value before we call.ToString()!
+		*@
+		<p>Currnet Price: 
+			@if(auction.CurrentPrice == null)
+			{
+				@:[No Bids]
+				<text>
+					[No Bids]
+				</text>
+			}
+			else
+			{
+			<span>@auction.CurrentPrice.ToString("C")</span>
+			}
+		</p>	
+	</div>
+	@if(auction.ImageUrl!=null)
+		{
+			<img 
+				src="@auction.ImageUrl" 
+				title = "@auction.Title"
+			/>
+		}
+	<div class="description">
+		@auction.Description
+	</div>
+</div>

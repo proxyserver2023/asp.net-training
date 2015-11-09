@@ -1,0 +1,9 @@
+High Quality URLs 
+
+A Domain name that is easy to remember and easy to spell
+Short URLs 
+Easy-to-type URLs
+
+URLs that reflect the site structure
+URLs that are hackable to allow users to move to higher levels of the information architechture by hacking off the end of the URL
+Persistent URLs which do not change

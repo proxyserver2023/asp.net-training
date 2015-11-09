@@ -1,0 +1,49 @@
+Modifying the URL Pattern.txt
+
+Route mappings recognize URLs as a pattern of segments separated [or delimited] by a slash[/] character
+
+Each Segment may contain various combinations of literals(text values) and parameter placeholders.
+
+parameters placeholder are identified in a route by a definition by braces
+
+MVC Recognizes the special parameters {controller} and {action} and uses these to locate the appropriate controller and method to call in response to an incoming URL.
+
+Adding A More Restructive Route
+
+public static void RegistgerRoutes(RouteCollection routes)
+{
+	routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+
+
+	/// All The Properties 
+	/// Rental Properties
+	routes.MapRoute
+	(
+		name 		: "Properties",
+		url  		: "RentalProperties/{action}/{id}",
+		defaults	: new 
+						{
+							controller = "RentalProperty",
+							action     = "All",
+							id    	   = UrlParameter.Optional
+						}
+	);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

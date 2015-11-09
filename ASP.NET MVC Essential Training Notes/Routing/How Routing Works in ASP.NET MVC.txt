@@ -1,0 +1,46 @@
+How Routing Works in ASP.NET MVC
+
+Routing With the ASP.NET MVC Framework serves two main purposes"
+
+It matches incoming requests that would not otherwise match a file on the file system
+It Construct outgoing URLs that correspond to controller actions
+
+The most basic version of the convention would be a URL as follows
+
+http://mydomain/controllername/methodname
+
+The Default ASP.NET MVC Global.asax File
+
+public class MvcAuction:System.Web.HttpApplication
+{
+	protected_void Application_Start()
+	{
+		AreaRegistration.RegisterAllAreas();
+
+		WebApiConfig.Register(GlobalConfiguration.Configuration);
+		FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
+		RouteConfig.RegisterRoute(RouteTable.Routes);
+		BundleConfig.RegisterBundles(BundleTable.Bundles);
+	}
+}
+
+THe Default MVC RouteConfig Class:
+
+public class RouteConfig
+{
+	public static void RegisterRoutes(RouteCollection routes)
+	{
+		routes.IgonreRoute("{resource}.asd/{*pathInfo}");
+		routes.MapRoute
+		(
+			name     : "Default",
+			url      : "{controller}/{action}/{id}",
+			defaults : new 
+			{
+				controller = "Home",
+				action     = "Index",
+				id     	   = UrlParameter.Optional
+			} 
+		);
+	}
+}

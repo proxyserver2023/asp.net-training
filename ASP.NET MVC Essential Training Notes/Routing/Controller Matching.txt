@@ -1,0 +1,6 @@
+Controller matching
+
+When the Routing Framework encounters a route parameter named {controller} it appends the suffix "Controller" to the value of the parameter, and then scans the project for a class by that name which also implements the System.Web.Mvc.IController interface
+
+Search for  a controller name with a matching name is case-insensitive
+

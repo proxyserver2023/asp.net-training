@@ -1,0 +1,13 @@
+1. Using A layout to Create a consistent Look
+
+layouts
+|______ What a Layout Is?
+|______ How To Create a Layout?
+|______ How To Apply Layout?
+
+Layout is a special view that view other can refer to 
+ASP.NET MVC includes a layout template
+_____ _Layout.cshtml
+
+@RenderSection("<layout-name>", <required-or-not>)
+
