@@ -1,6 +1,0 @@
-D:\_git projects\ASP.NET Essential Training\First ASP.NET Site\First ASP.NET Site\bin\First ASP.NET Site.dll.config
-D:\_git projects\ASP.NET Essential Training\First ASP.NET Site\First ASP.NET Site\bin\First ASP.NET Site.dll
-D:\_git projects\ASP.NET Essential Training\First ASP.NET Site\First ASP.NET Site\bin\First ASP.NET Site.pdb
-D:\_git projects\ASP.NET Essential Training\First ASP.NET Site\First ASP.NET Site\obj\Debug\First ASP.NET Site.csprojResolveAssemblyReference.cache
-D:\_git projects\ASP.NET Essential Training\First ASP.NET Site\First ASP.NET Site\obj\Debug\First ASP.NET Site.dll
-D:\_git projects\ASP.NET Essential Training\First ASP.NET Site\First ASP.NET Site\obj\Debug\First ASP.NET Site.pdb
