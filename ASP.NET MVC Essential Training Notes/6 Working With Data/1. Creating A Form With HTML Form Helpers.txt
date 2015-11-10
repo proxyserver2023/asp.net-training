@@ -1,0 +1,27 @@
+1. Creating A Form With HTML Form Helpers.txt
+
+Interact with User by allowing them to post data
+
+public ActionResult Create()
+{
+	return View();
+}
+
+Use Create Template in View
+
+@model MvcAuction.Models.Auction
+@{
+	ViewBag.Title = "Create";
+}
+
+@using (Html.BeginForm()){
+	@Html.ValidationSummary(true)
+	<fieldset>
+		<legend>Auction
+		</legend>
+
+		<div class="editor-label"></div>
+		<div class="editor-field">
+		</div>
+	</fieldset>
+}

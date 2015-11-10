@@ -1,0 +1,6 @@
+4. Persisting Data With Entity Framework Code First
+
+tell about your model
+
+dbcontext
+

@@ -1,0 +1,4 @@
+3. Validating the User Input.txt
+
+Saving to Database
+Entity Framework Code First
