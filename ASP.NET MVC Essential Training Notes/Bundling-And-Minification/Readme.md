@@ -93,3 +93,74 @@ In the code above
 
 @RenderSection("scripts", required : false)
 ```
+#Creating A Bundle
+The Bundle Class Include method takes an array of strings, where each string is a virtual path to its resource.
+
+The following code from the RegisterBundles method in App_Start\BundleConfig.cs file shows how multiple files are added to a bundle
+
+```
+bundles.Add
+(
+	new StyleBundle
+	(
+		"~/Content/theme.base/css"
+	)
+	.Include
+	(
+		"~/Content/theme/base/jquery.ui.core.css",
+		....,
+		....,
+	)
+);
+```
+
+The BundleClass IncludeDirectory Method is provided to add all the files in a directory (and optionally all the subdirectories) which matches a search pattern.
+
+The Bundle Class IncludeDirectory API is shown Below:
+
+```
+public Bundle IncludeDirectory
+(
+	string directoryVirtualPath, // the Virtual path for the Directory 
+
+	string searchPattern ) //the Search pattern
+
+
+public Bundle IncludeDirectory
+(
+	string directoryVirtualPath,
+	string searchPattern,
+	bool search SubDirectories
+)
+
+```
+
+# Bundle Rendering
+
+Bundles are referenced in views using the Render Method
+
+`Styles.Render` for CSS
+`Scripts.Render` for JavaScript
+
+The Following Markup from the **Views\Shared\_Layout.cshtml** shows how the default ASP.NET internet project views reference CSS and JavaScript Bundles
+
+```
+<!DOCTYPE html>
+<html>
+	<head>
+		@* Markup removed for Clarity *@
+		@Styles.Render("~/Content/css", "~Content/theme/base/css");
+		@Scripts.Render("~/bundles/modernizr");
+
+	</head>
+
+	<body>
+		@*Markup removed for clarity*@
+
+		@Scritps.Render("~/bundles/jquery")
+		@RenderSection("scripts", required:false)
+
+	</body>
+
+</html>
+```
