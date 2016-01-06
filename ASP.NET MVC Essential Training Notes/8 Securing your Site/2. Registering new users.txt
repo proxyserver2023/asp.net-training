@@ -1,0 +1,4 @@
+2. Registering new users.txt
+
+now unauthorized users are blocked
+users need to be able to create accounts

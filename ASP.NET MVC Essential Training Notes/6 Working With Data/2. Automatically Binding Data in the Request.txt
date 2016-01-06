@@ -1,1 +1,18 @@
 2. Automatically Binding Data in the Request.txt
+ 	
+Sourc3es of model Binding  Values
+
+1. Route Data
+	- i.e URL Placeholders
+	- for Example {id} in {controller}/{action}/{id}
+
+2. Query String Parameters
+	- i.e The Request.QueryString Collection
+	- for example, category in the url:
+	"http://example.com/Auctions?category=Electronics"
+	
+3. Form Post Values
+	- the Request.Form collection
+	- for Example, Request.Form["Title"]
+
+4. Cookies

@@ -1,0 +1,44 @@
+4. Scaling your Site for more concurrent User.txt
+
+in order to appreciate the full power of the asp.net ASynchronusly, we might need to understand how ASP.NET Works
+
+thread starvation
+
+using an Asynchronus job does not slow but reduces thread starvation
+
+completing a short running operation takes much more time than a synchronus operation
+
+
+When Should I use an asynchronus controller? 
+
+normal Controller
+-----------------
+Simple and Short-running operations
+when simplicity is more important than efficiency 
+CPU-intensive operations 
+[threading won't help]
+
+asynchronus controller
+----------------------
+ 
+long running operations
+[i.e greater than 1 second]
+network-or I/O-intensive operations
+when users may cancel a long-running operation
+
+
+public class SearchController : AsyncController
+{
+	public async Task<ActionResult> Auctions (string Keyword)
+	{
+		var auctions  await Task.Run<IEnumerable<Models.Auction>>
+		(
+			()=>
+			{
+				var db = new Models.AuctionsDBContext();
+				return db.Auctions.Where(x => x.Title.Contains(Keyword)).ToArray();
+			}  
+			return Json(auctions, JsonRequestBehaviour.AllowGet);
+		);
+	}
+}

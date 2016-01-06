@@ -1,0 +1,27 @@
+2. Caching Entire Pages.txt
+
+output caching
+	
+	caching fully rendered HTML
+	caching part of the HTML
+	caching the Raw Data
+
+candidates for full page caching
+	
+	which pages would be affected by this?
+	-Auction List Page
+	-Auction page
+	-Home Page
+
+login Page
+Register page
+
+[OutputCache] is a thin wrapper on top of ASP.NET framework
+
+we didn't cache AuctionList to avoid Stale data
+is one second too short?
+
+	not necessarily [MicroCaching]
+	database Access is the bottleneck to consider
+	can reduce thousands of database queries per second
+

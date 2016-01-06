@@ -1,0 +1,28 @@
+3. Caching Parts of pages.txt
+
+Dynamic Navigation Structure
+
+-- Controller
+
+var db = new AuctionsDBContext();
+var categories = db.Auctions.Select(x=>x.Category).Distinct();
+ViewBag.Categories = categories.ToArray();
+ViewBag.Message = "This Page was rendered at " + DateTime.Now;
+return View();
+
+--- <ul id "menu"> ---
+@foreach(string category in ViewBag.Categories)
+{
+	<li>
+		@Html.ActionLink(
+			category,
+			"Index",
+			"Auctions",
+			new 
+			{
+				category
+			},
+			null
+		);
+	</li>
+}

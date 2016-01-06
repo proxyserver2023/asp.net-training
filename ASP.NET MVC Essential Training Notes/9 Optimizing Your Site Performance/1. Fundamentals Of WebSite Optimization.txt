@@ -1,0 +1,29 @@
+Fundamentals Of WebSite Optimization
+
+three primary Players
+
+server 	-> respond as fast as possible
+client	-> render page AFAP
+the internet -> send the Server's response to the client AFAP
+
+Optimization Areas
+
+- We don't have much control over the internet
+- reduce amount of requests
+- many ways to optimize client-side code
+
+Common Server Tasks
+
+interacting with a database
+logic and data manipulation
+rendering html to a browser
+
+Optimizing database interaction
+
+- storing data for a period of time [caching]
+- raw data
+- fully renedered pages
+- pieces of pages
+
+interacting with the database on a separate thread
+

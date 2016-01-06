@@ -1,0 +1,10 @@
+Securing Your Site
+
+1. Right Now, anyone can post
+2. we want to be able to control access
+3. Microsoft Provide Pre-made code for this
+
+properties of the [Authorize] Attribute
+1. Users
+2. Roles
+
